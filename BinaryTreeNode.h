@@ -10,4 +10,8 @@ class TreeNode{
         this->left=NULL;
         this->right=NULL;
     }
+    ~TreeNode(){
+        delete left;
+        delete right;
+    }
 };
