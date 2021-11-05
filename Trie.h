@@ -1,8 +1,8 @@
 #include "TrieNodeClass.h"
 #include <bits/stdc++.h>
 class Trie{
-    TrieNode *root;
     public:
+    TrieNode *root;
     Trie(){
         root=new TrieNode('\0');
     }
