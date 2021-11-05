@@ -67,6 +67,7 @@ class Trie{
         findPrefix(this->root,x);
     }
 };
+// Not attempted the sorting approach to this question as it was difficult
 int main(){
     Trie t1;
     t1.insertWord("helper");
